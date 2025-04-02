@@ -7,3 +7,5 @@ use App\Http\Controllers\ImportController;
 Route::middleware('api')->group(function () {
     Route::post('/import/{entity}', [ImportController::class, 'import']);
 });
+
+require __DIR__.'/products.php';

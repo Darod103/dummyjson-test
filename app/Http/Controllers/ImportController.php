@@ -6,7 +6,7 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use App\Services\ImportManager;
 use Illuminate\Http\JsonResponse;
-use App\Services\Importers\ProductImporter;
+
 
 /**
  * Контроллер для запуска импорта данных с внешнего API (dummyjson.com).
